@@ -3,13 +3,27 @@
 Cây hồi quy và phân loại (CART) là một cây quyết định nhị phân được đề xuất bởi Breiman~\cite{23}.\\
 
 % Vinh: Điều này làm đơn giản hóa tiêu chí tách vì không cần một hình phạt cho việc tách nhiều nhánh~\cite{24}. Hơn nữa, nếu biến được dùng để chia cũng là biến nhị phân, phép chia nhị phân cho phép CART tối ưu hóa kết quả phân loại các thuộc tính. Tuy nhiên phép chia này cũng có hạn chế. Cây có ít khả năng diễn giải hơn khi có nhiều phân tách xảy ra ở cùng một mức giá trị. Phép chia nhị phân cũng không hoạt động tốt trên các thuộc tính đa trị.\\
+\subsection{Cấu trúc cây nhị phân cơ bản}
+ Ứng  với một tập data ta cần tạo một  cây nhị phân có đầu ra thành một chuỗi các lá, mục tiêu các lá có giá trị đầu ra tương đồng nhiều nhất. Khi bắt đầu từ nút cấn chọn ra một thuộc tính và một giá trị sao cho giảm được "nhiễu" nhiều nhất có thể.Ta có thể lựa chọn các độ đo khác nhau nhằm sinh ra cây nhị phân với ý tưởng này, với mỗi độ đo khác nhau tương ứng với một luật tách (splitting rule).\\
+\subsection{Các luật tách thường dùng} Ta có thể chia thành 2 loại theo:
+\subsubsection{Đối với Regression Tree}
+\begin{itemize}
+\item Least squares: phương pháp chọn tổng bình phương lỗi (SSE) nhỏ nhất giữa các quan sát với giá trị trung bình. Giá trị này tốt nhất khi đạt tới 0 nghĩa là tất cả các giá trị quan sát đếu như nhau.
+\item Least absolute deviations: phương pháp chọn tổng  trị tuyệt đối nhỏ nhất giữa các quan sát với giá trị trung bình, so với Least squares thì phương pháp này ít nhạy hơn đối với các dữ liệu ngoại lai (outlier). 
+\end{itemize}
+\subsubsection{Đối với Classification Tree}
+\begin{itemize}
+\item Misclassification error: là tỉ lệ của các quan sát không cùng loại với loại chính. 
+\item Gini index  Entropy: (TODO: Mô tả thêm )  
+\item Entropy index: hay cross-entropy (TODO: Mô tả thêm )
+\item Twoing
+\end{itemize}
 
-\textit{Cấu trúc cây cơ bản}: CART tạo ra các cây chỉ có phân chia nhị phân. 
 
-
-
-\textit{Tiêu chí tách}: CART sử dụng chỉ số Gini để làm tiêu chí tách với mô hình phân loại. Gọi $RF(C_j,S)$ biễu diễn tần suất xuất hiện của lớp $C_j$ trong các phần tử của tập $S$. Chỉ số Gini được xác định bằng công thức:
+\subsection{Tiêu chí tách}
+CART sử dụng chỉ số Gini để làm tiêu chí tách với mô hình phân loại. Gọi $RF(C_j,S)$ biễu diễn tần suất xuất hiện của lớp $C_j$ trong các phần tử của tập $S$. Chỉ số Gini được xác định bằng công thức:
 $$I_{gini}(S)=1- \sum^x_{j=1}RF(C_j,S)^2$$
+
 Sau khi tập $S$ được chia thành nhiều tập con $S_1,S_2,\ldots,S_t$, bởi phép chia $B$, độ lợi thông tin $G(S,B)$ được tính bằng công thức:
 $$G(S,B) = I(S) - \sum^t_{i=1}\frac{|S_i|}{|S|}I(S_i)$$
 Ta chọn phép chia $B$ nào làm tối đa hóa độ lợi $G(S,B)$.
@@ -18,9 +32,21 @@ $$MSE=E_e\left[\sum^x_{j=1}(C_j(e)-P_j(e))^2\right]$$
 với kì vọng trên toàn bộ các mẫu, $P_j(e)$ đại diện cho xác suất mẫu $e$ thuộc lớp $j$. Đối với cây hồi quy, độ lệch  $R(S_i)$ là sai số toàn phương trung bình:
 $$R(S) = \frac{1}{n}\sum_i(y_i - h(t_i))^2$$
 với $y_i$ là giá trị thực của biến mục tiêu trong mẫu $t_i$ và $h(t_i)$ là giá trị dự đoán của mô hình.\\
-\textit{Cắt tỉa}: Cả cây hồi quy và phân loại đều dùng chung một phương pháp gọi là \textit{tối thiểu hóa độ phức tạp}. Phương pháp này giả sử rằng sai số dự đoán của cây tăng tuyến tính với số nút lá. Giá trị sai số của một cây con được tính bằng tổng của hai tham số: Độ lệch của mô hình và số lá nhân với giá trị phức tạp $\alpha$:
-$$R_\alpha = R(T) + \alpha\cdot\text{số lá}$$
 
 
+\subsection{Tỉa cây}
+Khi xây dựng cây bằng cách "vét cạn", tối ưu tất cả các mẫu trong tập huấn luyện, dẫn đến các node lá trong cây mang ít các quan sát. Điều này làm kết quả xấu khi thử ở tập kiểm tra mặc dù tập huấn luyện có kết quả tốt. Nếu một cây được xây dựng quá nhỏ tức độ sâu quá ngắn thì chưa trích xuất được hết thông tin.\\
+Ta có thể tùy chỉnh kích thước của cây theo các cách sau đây:
+\begin{itemize}
+\item Không nhất thiết node lá hoàn toàn đồng nhất, ta nên dừng việc tách nhánh khi độ đồng nhất trên mức chấp nhận được.
+\item Một cách khác là "vét cạn" cây đến khi đạt đến node lá nhỏ nhất (thường chỉ có một quan sát). Xác định độ sâu thích hợp dựa trên tập kiểm tra độc lập với tập huần luyện  hoặc dùng cross-validation (TODO: trình bày mục sau). Sau đó tỉa các nhánh đưa cây về độ sâu đã chọn.
+\end{itemize}
 
+
+\subsubsection{Tập kiểm tra}
+% TODO: có số liệu cụ thể bao nhiêu observation bao nhiêu %
+Khi tập mẫu đủ lớn, ta chia tập thành 2 phần riêng, độc lập với nhau 
+\begin{itemize}
+\item Tập huấn luyện: 
+\end{itemize}
 
