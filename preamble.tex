@@ -1,0 +1,217 @@
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{vntex}
+\renewcommand{\baselinestretch}{1.2} 
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[table]{xcolor}
+%\usepackage[utf8]{inputenc}
+%\usepackage[francais]{babel}
+\usepackage{geometry}
+\usepackage{a4wide,amssymb,epsfig,latexsym,multicol,array,hhline}
+\usepackage{lastpage}
+\usepackage{emptypage}
+\usepackage{pdfpages}
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{spverbatim}
+\usepackage{graphicx}							% Standard graphics package
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{setspace}
+\usepackage{epsfig}
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes,backgrounds}
+\usepackage{hyperref}
+\hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true} 
+\usepackage{shapepar}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{changepage}
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{tabularx, caption}
+\usepackage{qtree}
+\usepackage{pgfgantt}
+\usepackage{pgfplots}
+\usepackage{tkz-euclide}
+\usepackage{accents}
+\usepackage{setspace}
+\usepackage{animate}
+\usepackage{lipsum}
+\usepackage{verbatim}
+\usepackage{cleveref}
+\usetikzlibrary{arrows,snakes,backgrounds,automata,positioning,trees,shapes,calc,through,bending}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{movie15}
+\usepackage{pst-plot}
+\usepackage[numbered]{bookmark}
+\usepackage{tocloft}
+\usepackage{helvet}
+\usepackage{listings}
+\usepackage[ddmmyyyy]{datetime}
+\usepackage{csvsimple}
+\usepackage{float}
+%\usepackage[nomessages]{fp}
+\usetkzobj{all} 
+%\usepackage{pstcol} 								% PSTricks with the standard color package
+%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex}
+%\usepackage[autostyle=true]{csquotes}
+\usepackage[citestyle=numeric]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+
+%\addbibresource{bibliography.bib}
+
+%\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+\newtheorem{theorem}{{\bf Định lý}}
+\newtheorem{constraint}{{\bf Ràng buộc}}
+\newtheorem{property}{{\bf Tính chất}}
+\newtheorem{proposition}{{\bf Mệnh đề}}
+\newtheorem{corollary}[proposition]{{\bf Hệ quả}}
+\newtheorem{lemma}[proposition]{{\bf Bổ đề}}
+
+
+%%ensembles de nombres
+\def\NP{$\mathcal{NP}$}
+\def\N{\mathbb{N}}
+\def\Z{\mathbb{Z}}
+\def\R{\mathbb{R}}
+\def\Q{\mathbb{Q}}
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}{Mục lục}
+  \renewcommand{\listfigurename}{Danh mục hình ảnh}
+  \renewcommand{\chaptername}{Chương}
+  \renewcommand{\figurename}{Hình}
+  \renewcommand{\abstractname}{Tóm tắt}
+  \renewcommand{\bibname}{Tài liệu tham khảo}  
+  \renewcommand{\refname}{Tài liệu tham khảo}  
+  %
+}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+%\def\myd#1{\text{\d{\ensuremath#1}}}
+
+
+\newcounter{numproblem}
+\newenvironment{problem}{\addtocounter{numproblem}{1}
+\noindent{\large \bf Problem \thenumproblem. }}{}
+
+\newcounter{numexercise}
+\newenvironment{exercise}{\addtocounter{numexercise}{1}
+\noindent{\large \bf Exercise \thenumexercise. \\}}{}
+
+\newcounter{numquestion}
+\newenvironment{question}{\addtocounter{numquestion}{1}
+\noindent{\large \bf Question \thenumquestion. \\}}{}
+
+
+\newcounter{numcau}
+\newenvironment{cau}{\addtocounter{numcau}{1}
+\noindent{\large \bf Câu \thenumcau. \\}}{}
+
+%\newcounter{numsolution}
+\newenvironment{solution}{
+\noindent{ \large \bf Solution.\\}  \color{blue}}{~~\hfill$\Box$\\}
+
+\newenvironment{loigiai}{
+\noindent{ \large \bf Lời giải.\\}  \color{blue}}{~~\hfill$\Box$\\}
+
+\newif\ifshortversion
+\shortversiontrue 	% hide this line when shortversion==false
+\newcommand\version[2]{\ifshortversion #1 \else #2 \fi}
+
+\newcommand{\tikzAngleOfLine}{\tikz@AngleOfLine}
+\def\tikz@AngleOfLine(#1)(#2)#3{%
+\pgfmathanglebetweenpoints{%
+\pgfpointanchor{#1}{center}}{%
+\pgfpointanchor{#2}{center}}
+\pgfmathsetmacro{#3}{\pgfmathresult}%
+} 
+
+
+%\usepackage{fancyhdr}
+\definecolor{darkblue}{RGB}{3, 43, 145}
+\definecolor{lightblue}{RGB}{20, 136, 219}
+\definecolor{amber}{rgb}{1.0, 0.75, 0.0}
+\definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{awesome}{rgb}{1.0, 0.13, 0.32}
+\definecolor{banana}{rgb}{1.0, 0.88, 0.21}
+\definecolor{brilliantlavender}{rgb}{0.96, 0.73, 1.0}
+\definecolor{bubbles}{rgb}{0.91, 1.0, 1.0}
+\newsavebox\LogoHCMUT
+\savebox\LogoHCMUT{%
+\input{figures/LogoHCMUT}
+}
+\newcommand{\insertlogo}[2]{\resizebox{#1}{#2}{\usebox{\LogoHCMUT}}}%
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\newbox\one
+\newbox\two
+\long\def\loremlines#1{%
+    \setbox\one=\vbox {%
+      \lipsum
+     }
+   \setbox\two=\vsplit\one to #1\baselineskip
+   \unvbox\two}
+   
+   \setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@alph\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{3}{10.0em}{4.1em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\newcommand{\tikzAngleOfLine}{\tikz@AngleOfLine}
+\def\tikz@AngleOfLine(#1)(#2)#3{%
+\pgfmathanglebetweenpoints{%
+\pgfpointanchor{#1}{center}}{%
+\pgfpointanchor{#2}{center}}
+\pgfmathsetmacro{#3}{\pgfmathresult}%
+} 
+
+\def\roundloop[#1]#2#3{%
+ \coordinate (rla) at (#2.east); 
+ \path   (#2)--++(#1) coordinate (rlb);
+ \tkzTgtFromP(#2,rla)(rlb)            
+ \node (rlb) at (rlb) [circle through={(tkzFirstPointResult)}] {};
+ \coordinate  (rlc) at (intersection 2 of #2 and rlb);
+ \coordinate  (rld) at (intersection 1 of #2 and rlb);         
+ \tikzAngleOfLine(rlb)(rld){\AngleStart}
+ \tikzAngleOfLine(rlb)(rlc){\AngleEnd} 
+ \tikzAngleOfLine(#2)(rlb){\AngleLabel}
+ \ifdim\AngleStart pt<\AngleEnd pt
+ \draw[thick,->]%
+   let \p1 = ($ (rlb) - (rld) $), \n2 = {veclen(\x1,\y1)}
+   in   
+     (rlb) ++(\AngleLabel:\n2) node[]{#3}
+     (rld) arc (\AngleStart:\AngleEnd:\n2); 
+ \else 
+  \draw[thick,->]%
+   let \p1 = ($ (rlb) - (rld) $), \n2 = {veclen(\x1,\y1)}
+   in   
+     (rlb) ++(\AngleLabel:\n2) node[]{#3}
+     (rld) arc (\AngleStart-360:\AngleEnd:\n2); 
+   \fi 
+  }
+  
+

@@ -1,0 +1,32 @@
+\centering
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+\begin{tikzpicture}[shorten >=1pt,node distance=1.5cm,on grid,auto,/tikz/initial text=,font=\small,align=center] 
+ \newdimen\R
+ \newdimen\fsbk
+ \newdimen\fshcm
+   \R=142pt
+   \fsbk=135pt
+   \fshcm=50pt
+   \coordinate (O) at (0:0) {};
+   \node (BK) at ($(0:0)+(90:\R/7)$)[draw=none] {\color{darkblue} \bf 
+   \begingroup
+    \fontsize{\fsbk}{\fsbk}\selectfont
+     BK
+	\endgroup
+	\\};
+   \node  (HCM) at ($(BK.south)+(-90:\R/7)$)[draw=none] {\color{lightblue} \bf 
+   \begingroup
+    \fontsize{\fshcm}{\fshcm}\selectfont
+    \centering
+    \hspace{-1pt} TP.HCM
+	\endgroup
+	\\};
+   \foreach \x in {0,60,...,360}  {\draw[draw = none] ($(O)+(\x+30:\R)$) -- ($(O)+(\x+90:\R)$);}
+   \foreach \i in {0,120,240} {
+    \draw[fill=darkblue,draw = none] ($(O)+(\i+150:\R)$) -- ($(O)+(\i+150:\R)+(\i+90:\R)$) -- ($(O)+(\i+90:\R)+(\i+90:\R)$) -- ($(O)+(\i+90:\R)$) -- cycle;
+   \draw[fill=lightblue,draw = none] ($(O)+(\i+30:\R)$) -- ($(O)+(\i+30:\R)+(\i+90:\R)$) -- ($(O)+(\i+90:\R)+(\i+90:\R)$) -- ($(O)+(\i+90:\R)$) -- cycle;
+   }
+\end{tikzpicture}
+\renewcommand{\familydefault}{\rmdefault}
+\normalfont

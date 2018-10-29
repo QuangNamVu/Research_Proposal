@@ -1,0 +1,21 @@
+\chapter{Chuẩn bị dữ liệu} 
+\section{Mô tả dữ liệu}
+% Dữ liệu được thu thập của từ các bệnh nhận ở bệnh viện Thống Nhất, thành phố Hồ Chí Minh với 744320	mẫu chưa qua xử lý, từ tháng 12 năm 2013 đến tháng 7 năm 2017. Để đảm bảo tính riêng tư cho bệnh nhân, bộ dữ liệu được mã hóa và loại bỏ các thông tin nhạy cảm liên quan đến danh tính bệnh nhân.\\\\
+% \csvautotabular[respect sharp]{figures/data.csv}\\\\
+% Trong bảng trên:
+% \begin{itemize}
+%     \item \textbf{los}: số ngày điều trị
+%     \item \textbf{diagnose}: chẩn đoán
+%     \item \textbf{age}: tuổi
+%     \item \textbf{bloodTest}: xét nghiệm máu
+% \end{itemize}
+% Chúng ta thấy rằng các trường \textit{diagnose} và \textit{bloodTest} chứa các chuỗi kí tự. Do đó dữ liệu này cần phải được xử lý trước khi đưa vào các mô hình học máy.
+% \section{Tiền xử lý dữ liệu}
+% Trong bộ dữ liệu gốc có rất nhiều chẩn đoán bệnh. Nhưng trong nghiên cứu này, chúng tôi chỉ xét một bệnh duy nhất là để có thể phân tích kĩ và chạy mô hình. Do đó chúng tôi đã thống kê sơ bộ số lượng mẫu theo theo từng chẩn đoán và thu được chẩn đoán bệnh đái tháo đường chiếm số lượng nhiều nhất.\\
+% Để có một bộ dữ liệu về bệnh đái tháo đường, chúng tôi lọc từ bộ dữ liệu gốc theo 3 tiêu chí:
+% \begin{itemize}
+% \item Loại các mẫu không có chẩn đoán đái tháo đường, thu được 137794 mẫu
+% \item Loại các mẫu không có chỉ định xét nghiệm huyết học, còn lại 47962 mẫu
+% \item Loại các mẫu không có xét nghiệm đường huyết glucose. Cuối cùng ta thu được 16867 mẫu
+% \end{itemize}
+% Sau khi lọc dữ liệu, ta thu được một lượng dữ liệu đủ để chạy các mô hình học máy. Lý do chúng tôi chỉ xét tới những trường xét nghiệm máu là vì {\color{red}trong y học, các xét nghiệm cho bệnh đái tháo đường là xét nghiệm liên quan đến máu.}

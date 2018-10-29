@@ -1,0 +1,26 @@
+\chapter{Cơ sở lý thuyết} 
+\section{Cây hồi quy và phân loại}
+Cây hồi quy và phân loại (CART) là một cây quyết định nhị phân được đề xuất bởi Breiman~\cite{23}.\\
+
+% Vinh: Điều này làm đơn giản hóa tiêu chí tách vì không cần một hình phạt cho việc tách nhiều nhánh~\cite{24}. Hơn nữa, nếu biến được dùng để chia cũng là biến nhị phân, phép chia nhị phân cho phép CART tối ưu hóa kết quả phân loại các thuộc tính. Tuy nhiên phép chia này cũng có hạn chế. Cây có ít khả năng diễn giải hơn khi có nhiều phân tách xảy ra ở cùng một mức giá trị. Phép chia nhị phân cũng không hoạt động tốt trên các thuộc tính đa trị.\\
+
+\textit{Cấu trúc cây cơ bản}: CART tạo ra các cây chỉ có phân chia nhị phân. 
+
+
+
+\textit{Tiêu chí tách}: CART sử dụng chỉ số Gini để làm tiêu chí tách với mô hình phân loại. Gọi $RF(C_j,S)$ biễu diễn tần suất xuất hiện của lớp $C_j$ trong các phần tử của tập $S$. Chỉ số Gini được xác định bằng công thức:
+$$I_{gini}(S)=1- \sum^x_{j=1}RF(C_j,S)^2$$
+Sau khi tập $S$ được chia thành nhiều tập con $S_1,S_2,\ldots,S_t$, bởi phép chia $B$, độ lợi thông tin $G(S,B)$ được tính bằng công thức:
+$$G(S,B) = I(S) - \sum^t_{i=1}\frac{|S_i|}{|S|}I(S_i)$$
+Ta chọn phép chia $B$ nào làm tối đa hóa độ lợi $G(S,B)$.
+Sau đó CART sẽ xây dựng các mô hình trên các tập $S_i$. Một cây phân loại sẽ dự đoán phân phối của một mẫu trên một lớp nhất định. Hiệu quả của mỗi cây phân loại sẽ được tính dựa trên sai số toàn phương trung bình. Với mỗi lớp $j$, gọi $C_j(e)$ là chỉ báo có giá trị bằng $1$ nếu mẫu $e$ thuộc lớp $j$ và bằng $0$ nếu không. Sai số toàn phương trung bình $MSE$ được tính bằng công thức:
+$$MSE=E_e\left[\sum^x_{j=1}(C_j(e)-P_j(e))^2\right]$$
+với kì vọng trên toàn bộ các mẫu, $P_j(e)$ đại diện cho xác suất mẫu $e$ thuộc lớp $j$. Đối với cây hồi quy, độ lệch  $R(S_i)$ là sai số toàn phương trung bình:
+$$R(S) = \frac{1}{n}\sum_i(y_i - h(t_i))^2$$
+với $y_i$ là giá trị thực của biến mục tiêu trong mẫu $t_i$ và $h(t_i)$ là giá trị dự đoán của mô hình.\\
+\textit{Cắt tỉa}: Cả cây hồi quy và phân loại đều dùng chung một phương pháp gọi là \textit{tối thiểu hóa độ phức tạp}. Phương pháp này giả sử rằng sai số dự đoán của cây tăng tuyến tính với số nút lá. Giá trị sai số của một cây con được tính bằng tổng của hai tham số: Độ lệch của mô hình và số lá nhân với giá trị phức tạp $\alpha$:
+$$R_\alpha = R(T) + \alpha\cdot\text{số lá}$$
+
+
+
+
