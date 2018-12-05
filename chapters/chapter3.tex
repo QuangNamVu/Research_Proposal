@@ -1,4 +1,5 @@
 \chapter{Cơ sở lý thuyết} 
+
 \section{Cây hồi quy và phân loại}
 Cây hồi quy và phân loại (CART) là một cây quyết định nhị phân được đề xuất bởi Breiman~\cite{23}.\\
 
@@ -14,11 +15,10 @@ Cây hồi quy và phân loại (CART) là một cây quyết định nhị phâ
 \subsubsection{Đối với Classification Tree}
 \begin{itemize}
 \item Misclassification error: là tỉ lệ của các quan sát không cùng loại với loại chính. 
-\item Gini index  Entropy: (TODO: Mô tả thêm )  
-\item Entropy index: hay cross-entropy (TODO: Mô tả thêm )
-\item Twoing
+\item Gini index  Entropy: %(TODO: Mô tả thêm )  
+\item Entropy index: hay cross-entropy %(TODO: Mô tả thêm )
+\item Twoing:%(TODO: Mô tả thêm )
 \end{itemize}
-
 
 \subsection{Tiêu chí tách}
 CART sử dụng chỉ số Gini để làm tiêu chí tách với mô hình phân loại. Gọi $RF(C_j,S)$ biễu diễn tần suất xuất hiện của lớp $C_j$ trong các phần tử của tập $S$. Chỉ số Gini được xác định bằng công thức:
@@ -43,10 +43,16 @@ Ta có thể tùy chỉnh kích thước của cây theo các cách sau đây:
 \end{itemize}
 
 
-\subsubsection{Tập kiểm tra}
+\subsubsection{Tập huấn luyện - kiểm tra độc lập}
 % TODO: có số liệu cụ thể bao nhiêu observation bao nhiêu %
-Khi tập mẫu đủ lớn, ta chia tập thành 2 phần riêng, độc lập với nhau 
+Khi tập mẫu đủ lớn, ta chia tập thành 2 phần riêng, độc lập với nhau.
 \begin{itemize}
-\item Tập huấn luyện: 
+\item Tập huấn luyện: dùng để sinh cây có độ dài lớn đủ để có thể tỉa cây.
+\item Tập kiểm thử: từ cây đã sinh ở trên ngẫu nhiên tỉa các nhánh để tạo ra nhiều cây con, thử các quan sát ở tập kiểm thử trên những cây con này từ đó xác định được số lỗi nhỏ nhất theo bài toán regression hoặc classification.
 \end{itemize}
+\subsubsection{Cross-Validation}
+%(TODO: chưa làm cross-validation không có kết quả
+Nếu dữ liệu chưa đủ cho việc tách riêng biệt thành hai tập với tỉ lệ như trên 
 
+ nói cách khác chúng ta cần giữ lại tập train càng nhiều càng tốt nhưng vẫn cần sự độc lập giữa hai tập này.
+\section{Rừng ngẫu nhiên}

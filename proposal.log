@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.10.15)  29 OCT 2018 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.12.3)  5 DEC 2018 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -13,10 +13,10 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2018-08-23 L3 programming layer (loader) 
+Package: expl3 2018-11-19 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2018-08-23 L3 programming layer (code)
+Package: expl3 2018-11-19 L3 programming layer (code)
 \c_max_int=\count81
 \l_tmpa_int=\count82
 \l_tmpb_int=\count83
@@ -163,10 +163,10 @@ Package: expl3 2018-08-23 L3 programming layer (code)
 \l__seq_internal_b_int=\count164
 )
 (/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2018-08-23 v L3 Experimental driver: PDF mode
+File: l3pdfmode.def 2018-11-19 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count165
 ))
-Package: xparse 2018-08-23 L3 Experimental document command parser
+Package: xparse 2018-10-17 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count166
 \g__xparse_grabber_int=\count167
 \l__xparse_m_args_int=\count168
@@ -191,76 +191,48 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \abovechapterskip with sig. '' on line 59.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chapterbelowskip with sig. '' on line 60.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chapterinbetweenskip with sig. '' on line 61.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \autodot with sig. '' on line 62.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \mdtChapapp with sig. '' on line 63.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chapteralign with sig. '' on line 64.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chapterfont with sig. '' on line 65.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chapterprefixfont with sig. '' on line 66.
-.................................................
-.................................................
-. LaTeX info: "xparse/redefine-command"
-. 
-. Redefining command \@makechapterhead with sig. ' m ' on line 86.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addchap with sig. ' s o m ' on line 113.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addsec with sig. ' s o m ' on line 128.
-.................................................
-
 (/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2001/04/09 non-zero parskip adjustments
+Package: parskip 2018-08-24 v2.0a non-zero parskip adjustments
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
 )
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/09/02 3.23 The Babel package
+Package: babel 2018/11/13 3.27 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/09/02 3.23 Babel switching mechanism
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/09/02 3.23 Babel common definitions
+File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count180
 \U@D=\dimen135
 
@@ -275,10 +247,6 @@ File: babel.def 2018/09/02 3.23 Babel common definitions
 Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
 ))
@@ -291,186 +259,6 @@ asics and keyval usage)
 )
 (/usr/share/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchcmd with sig. '' on line 125.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretocmd with sig. '' on line 126.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptocmd with sig. '' on line 127.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowcmd with sig. '' on line 128.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchbibmacro with sig. 'm' on line 131.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretobibmacro with sig. 'm' on line 133.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptobibmacro with sig. 'm' on line 135.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowbibmacro with sig. 'm' on line 137.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchfieldformat with sig. 'O{*}m' on line 139.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretofieldformat with sig. 'O{*}m' on line 141.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptofieldformat with sig. 'O{*}m' on line 143.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowfieldformat with sig. 'O{*}m' on line 145.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchnameformat with sig. 'O{*}m' on line 147.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretonameformat with sig. 'O{*}m' on line 149.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptonameformat with sig. 'O{*}m' on line 151.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshownameformat with sig. 'O{*}m' on line 153.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchlistformat with sig. 'O{*}m' on line 155.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretolistformat with sig. 'O{*}m' on line 157.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptolistformat with sig. 'O{*}m' on line 159.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowlistformat with sig. 'O{*}m' on line 161.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchindexfieldformat with sig. 'O{*}m' on line 163.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretoindexfieldformat with sig. 'O{*}m' on line 165.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptoindexfieldformat with sig. 'O{*}m' on line 167.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowindexfieldformat with sig. 'O{*}m' on line 169.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchindexnameformat with sig. 'O{*}m' on line 171.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretoindexnameformat with sig. 'O{*}m' on line 173.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptoindexnameformat with sig. 'O{*}m' on line 175.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowindexnameformat with sig. 'O{*}m' on line 177.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchindexlistformat with sig. 'O{*}m' on line 179.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretoindexlistformat with sig. 'O{*}m' on line 181.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xappindextolistformat with sig. 'O{*}m' on line 183.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowindexlistformat with sig. 'O{*}m' on line 185.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchbibdriver with sig. 'm' on line 187.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretobibdriver with sig. 'm' on line 189.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptobibdriver with sig. 'm' on line 191.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowbibdriver with sig. 'm' on line 193.
-.................................................
 ))
 (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -521,7 +309,7 @@ Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \ar@cellbox=\box46
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2018-08-23 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box47
 \l__siunitx_tmp_dim=\dimen140
@@ -563,121 +351,6 @@ Package: l3keys2e 2018-08-23 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_result_box=\box53
 \l__siunitx_table_number_align_skip=\skip57
 \l__siunitx_table_text_align_skip=\skip58
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7237.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIPostPower with sig. 'mm' on line 7240.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7243.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIPrePower with sig. 'mm' on line 7246.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIQualifier with sig. 'mm' on line 7249.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7252.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7255.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7270.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \num with sig. 'om' on line 7279.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7288.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \numrange with sig. 'omm' on line 7297.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7309.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \SIrange with sig. 'ommm' on line 7321.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \SI with sig. 'omom' on line 7333.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \sisetup with sig. 'm' on line 7336.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tablenum with sig. 'om' on line 7351.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \si with sig. 'om' on line 7363.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \numInBookmark with sig. 'om' on line 7410.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \numrangeInBookmark with sig. 'omm' on line 7412.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \SIInBookmark with sig. 'omom' on line 7414.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \SIlistInBookmark with sig. 'omm' on line 7416.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7418.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \siInBookmark with sig. 'om' on line 7419.
-.................................................
 
 (/usr/share/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
@@ -723,10 +396,10 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisrulewidth=\dimen166
 )
 (/usr/share/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen167
 \captionmargin@=\dimen168
@@ -736,88 +409,13 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen172
 \caption@hangindent=\dimen173
 )
-\c@ContinuedFloat=\count274
+\c@caption@flags=\count274
+\c@ContinuedFloat=\count275
 Package caption Info: longtable package is loaded.
 
 (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 ))
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \thesistitle with sig. ' o m ' on line 214.
-.................................................
-.................................................
-. LaTeX info: "xparse/redefine-command"
-. 
-. Redefining command \author with sig. 'm' on line 215.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \supervisor with sig. 'm' on line 216.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \examiner with sig. 'm' on line 217.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \degree with sig. 'm' on line 218.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addresses with sig. 'm' on line 219.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \university with sig. 'm' on line 220.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \department with sig. 'm' on line 221.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \group with sig. 'm' on line 222.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \faculty with sig. 'm' on line 223.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \subject with sig. 'm' on line 224.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \keywords with sig. 'm' on line 225.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \bhrule with sig. '' on line 232.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tttypeout with sig. 'm' on line 233.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addchaptertocentry with sig. ' m ' on line 241.
-.................................................
-
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -839,7 +437,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -848,9 +446,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
+\Gm@cnth=\count276
+\Gm@cntv=\count277
+\c@Gm@tempcnt=\count278
 \Gm@bindingoffset=\dimen174
 \Gm@wd@mp=\dimen175
 \Gm@odd@mp=\dimen176
@@ -884,72 +482,6 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
 1: chapter
 1: chapter
 1: section
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \blankpagestyle with sig. ' m ' on line 308.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setblankpagestyle with sig. ' m ' on line 309.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setchapterpagestyle with sig. ' m ' on line 310.
-.................................................
-.................................................
-. LaTeX info: "xparse/redefine-command"
-. 
-. Redefining command \cleardoublepage with sig. '' on line 317.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'abbreviations' with sig. ' m ' on line 334.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \abstractauthorfont with sig. '' on line 340.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \abstracttitlefont with sig. '' on line 341.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'abstract' with sig. ' O{\null \vfill } ' on line 365.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'extraAbstract' with sig. ' O{\null \vfill } ' on line
-. 390.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'acknowledgements' with sig. '' on line 418.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'declaration' with sig. '' on line 440.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'constants' with sig. ' m ' on line 482.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'symbols' with sig. ' m ' on line 500.
-.................................................
 ) (./preamble.tex (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks19
@@ -1171,14 +703,14 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 )
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
-\c@tracingmulticols=\count278
+\c@tracingmulticols=\count279
 \mult@box=\box54
 \multicol@leftmargin=\dimen184
-\c@unbalance=\count279
-\c@collectmore=\count280
-\doublecol@number=\count281
-\multicoltolerance=\count282
-\multicolpretolerance=\count283
+\c@unbalance=\count280
+\c@collectmore=\count281
+\doublecol@number=\count282
+\multicoltolerance=\count283
+\multicolpretolerance=\count284
 \full@width=\dimen185
 \page@free=\dimen186
 \premulticols=\dimen187
@@ -1209,14 +741,14 @@ Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
 \@tempa=\box75
 \@tempa=\box76
 \@tempa=\box77
-\c@columnbadness=\count284
-\c@finalcolumnbadness=\count285
+\c@columnbadness=\count285
+\c@finalcolumnbadness=\count286
 \last@try=\dimen190
 \multicolovershoot=\dimen191
 \multicolundershoot=\dimen192
 \mult@nat@firstbox=\box78
 \colbreak@box=\box79
-\mc@col@check@num=\count286
+\mc@col@check@num=\count287
 )
 (/usr/share/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
@@ -1233,15 +765,15 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count287
-\calc@Bcount=\count288
+\calc@Acount=\count288
+\calc@Bcount=\count289
 \calc@Adimen=\dimen193
 \calc@Bdimen=\dimen194
 \calc@Askip=\skip62
 \calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count289
+\calc@Ccount=\count290
 \calc@Cskip=\skip64
 )
 (/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -1249,13 +781,7 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+))
 \AM@pagewidth=\dimen195
 \AM@pageheight=\dimen196
 
@@ -1265,17 +791,17 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box80
 \AM@global@opts=\toks21
 \AM@toc@title=\toks22
-\c@AM@survey=\count290
+\c@AM@survey=\count291
 \AM@templatesizebox=\box81
 )
 (/usr/share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count291
+\c@AlgoLine=\count292
 \algocf@hangindent=\skip65
 
 (/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count292
+\c@checkoddpage=\count293
 )
 (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -1313,9 +839,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip81
 \algotitleheightruledefault=\skip82
 \algotitleheightrule=\skip83
-\c@algocfline=\count293
-\c@algocfproc=\count294
-\c@algocf=\count295
+\c@algocfline=\count294
+\c@algocfproc=\count295
+\c@algocf=\count296
 \algocf@algoframe=\box88
 \algocf@algobox=\box89
 )
@@ -1333,19 +859,19 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@old@col=\dimen261
 \TX@target=\dimen262
 \TX@delta=\dimen263
-\TX@cols=\count296
+\TX@cols=\count297
 \TX@ftn=\toks24
 )
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
 \multirow@colwidth=\skip84
-\multirow@cntb=\count297
+\multirow@cntb=\count298
 \multirow@dima=\skip85
 \bigstrutjot=\dimen264
 )
 (/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count298
+\c@r@tfl@t=\count299
 \rotFPtop=\skip86
 \rotFPbot=\skip87
 \rot@float@box=\box90
@@ -1393,10 +919,10 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yc=\dimen274
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count299
-\c@pgf@countb=\count300
-\c@pgf@countc=\count301
-\c@pgf@countd=\count302
+\c@pgf@counta=\count300
+\c@pgf@countb=\count301
+\c@pgf@countc=\count302
+\c@pgf@countd=\count303
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
@@ -1414,8 +940,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count303
-\pgfsyssoftpath@bigbuffer@items=\count304
+\pgfsyssoftpath@smallbuffer@items=\count304
+\pgfsyssoftpath@bigbuffer@items=\count305
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -1428,7 +954,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen275
-\pgfmath@count=\count305
+\pgfmath@count=\count306
 \pgfmath@box=\box92
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
@@ -1445,7 +971,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count306
+\c@pgfmathroundto@lastzeros=\count307
 )) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen276
@@ -1477,7 +1003,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box93
 \pgf@hbox=\box94
 \pgf@layerbox@main=\box95
-\pgf@picture@serial@count=\count307
+\pgf@picture@serial@count=\count308
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
@@ -1505,7 +1031,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen299
-\pgf@sys@shading@range@num=\count308
+\pgf@sys@shading@range@num=\count309
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1557,7 +1083,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count309
+\pgf@plot@mark@count=\count310
 \pgfplotmarksize=\dimen304
 )
 \tikz@lastx=\dimen305
@@ -1570,17 +1096,17 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box99
 \tikz@tempbox=\box100
 \tikz@tempbox@bg=\box101
-\tikztreelevel=\count310
-\tikznumberofchildren=\count311
-\tikznumberofcurrentchild=\count312
-\tikz@fig@count=\count313
+\tikztreelevel=\count311
+\tikznumberofchildren=\count312
+\tikznumberofcurrentchild=\count313
+\tikz@fig@count=\count314
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count314
-\pgfmatrixcurrentcolumn=\count315
-\pgf@matrix@numberofcolumns=\count316
+\pgfmatrixcurrentrow=\count315
+\pgfmatrixcurrentcolumn=\count316
+\pgf@matrix@numberofcolumns=\count317
 )
-\tikz@expandcount=\count317
+\tikz@expandcount=\count318
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
@@ -1613,7 +1139,7 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen314
 \pgfdecoratedinputsegmentremainingdistance=\dimen315
 \pgf@decorate@distancetomove=\dimen316
-\pgf@decorate@repeatstate=\count318
+\pgf@decorate@repeatstate=\count319
 \pgfdecorationsegmentamplitude=\dimen317
 \pgfdecorationsegmentlength=\dimen318
 )
@@ -1635,7 +1161,7 @@ File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
 \pgf@layerbox@background=\box103
 \pgf@layerboxsaved@background=\box104
 ) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -1646,19 +1172,14 @@ Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1682,53 +1203,50 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 (/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-)
 \@linkdim=\dimen319
-\Hy@linkcounter=\count319
-\Hy@pagecounter=\count320
+\Hy@linkcounter=\count320
+\Hy@pagecounter=\count321
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count321
+\Hy@SavedSpaceFactor=\count322
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count322
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count323
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5141.
 \XeTeXLinkMargin=\dimen320
-\Fld@menulength=\count323
+\Fld@menulength=\count324
 \Field@Width=\dimen321
 \Fld@charsize=\dimen322
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count324
-\c@Item=\count325
-\c@Hfootnote=\count326
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring OFF on input line 6416.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count325
+\c@Item=\count326
+\c@Hfootnote=\count327
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
@@ -1736,9 +1254,9 @@ Package scrhack Info: hyperref hack deactivated because of
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count327
-\c@bookmark@seq@number=\count328
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count328
+\c@bookmark@seq@number=\count329
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1754,9 +1272,9 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 Package: shapepar 2013/03/26 v 2.2x, Shaped paragraphs
 \SH@scale=\dimen323
 \SH@boxb=\box105
-\SH@ntries=\count329
+\SH@ntries=\count330
 \spec@bot=\dimen324
-\sqrtcount=\count330
+\sqrtcount=\count331
 )
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
@@ -1774,22 +1292,22 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 Package: mdframed 2013/07/01 1.9b: mdframed
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
-Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
+Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
-Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
+Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count331
+\c@abspage=\count332
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip92
-\c@mdf@globalstyle@cnt=\count332
+\c@mdf@globalstyle@cnt=\count333
 \mdf@skipabove@length=\skip93
 \mdf@skipbelow@length=\skip94
 \mdf@leftmargin@length=\skip95
@@ -1865,26 +1383,16 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip156
 \mdfsubtitleheight=\skip157
 \mdfsubsubtitleheight=\skip158
-\c@mdfcountframes=\count333
+\c@mdfcountframes=\count334
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
-.................................................
-\mdf@envdepth=\count334
-\c@mdf@env@i=\count335
-\c@mdf@env@ii=\count336
-\c@mdf@zref@counter=\count337
+\mdf@envdepth=\count335
+\c@mdf@env@i=\count336
+\c@mdf@env@ii=\count337
+\c@mdf@zref@counter=\count338
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -1899,13 +1407,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count338
+\inf@bad=\count339
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count339
-\leftroot@=\count340
+\uproot@=\count340
+\leftroot@=\count341
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count341
-\DOTSCASE@=\count342
+\classnum@=\count342
+\DOTSCASE@=\count343
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1914,15 +1422,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen331
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count343
-\c@MaxMatrixCols=\count344
+\macc@depth=\count344
+\c@MaxMatrixCols=\count345
 \dotsspace@=\muskip17
-\c@parentequation=\count345
-\dspbrk@lvl=\count346
+\c@parentequation=\count346
+\dspbrk@lvl=\count347
 \tag@help=\toks39
-\row@=\count347
-\column@=\count348
-\maxfields@=\count349
+\row@=\count348
+\column@=\count349
+\maxfields@=\count350
 \andhelp@=\toks40
 \eqnshift@=\dimen332
 \alignsep@=\dimen333
@@ -1939,8 +1447,8 @@ LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/share/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count350
-\cp@tempcnt=\count351
+\c@cp@cntr=\count351
+\cp@tempcnt=\count352
 LaTeX Info: Redefining \checkoddpage on input line 59.
 )
 (/usr/share/texmf-dist/tex/latex/qtree/qtree.sty
@@ -1963,8 +1471,8 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \@arcrad=\dimen339
 \@tempdimd=\dimen340
 )
-\c@treecount=\count352
-\c@branchcount=\count353
+\c@treecount=\count353
+\c@branchcount=\count354
 \parentbox=\box114
 \treebox=\box115
 \treeboxone=\box116
@@ -2063,9 +1571,9 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \treewidth=\skip291
 \qta=\toks44
 \qtb=\toks45
-\nbranches=\count354
-\qroofx=\count355
-\qroofy=\count356
+\nbranches=\count355
+\qroofx=\count356
+\qroofy=\count357
 \@qrscratchbox=\box136
 )
 (/usr/share/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
@@ -2098,24 +1606,24 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 )) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count357
+\pgfcalendarcurrentjulian=\count358
 ))
-\gtt@currentline=\count358
-\gtt@lasttitleline=\count359
-\gtt@currgrid=\count360
-\gtt@chartwidth=\count361
-\gtt@lasttitleslot=\count362
-\gtt@elementid=\count363
-\gtt@today@slot=\count364
-\gtt@startjulian=\count365
-\gtt@endjulian=\count366
-\gtt@chartid=\count367
-\gtt@vrule@slot=\count368
-\gtt@calendar@slots=\count369
-\gtt@calendar@weeknumber=\count370
-\gtt@calendar@startofweek=\count371
-\gtt@left@slot=\count372
-\gtt@right@slot=\count373
+\gtt@currentline=\count359
+\gtt@lasttitleline=\count360
+\gtt@currgrid=\count361
+\gtt@chartwidth=\count362
+\gtt@lasttitleslot=\count363
+\gtt@elementid=\count364
+\gtt@today@slot=\count365
+\gtt@startjulian=\count366
+\gtt@endjulian=\count367
+\gtt@chartid=\count368
+\gtt@vrule@slot=\count369
+\gtt@calendar@slots=\count370
+\gtt@calendar@weeknumber=\count371
+\gtt@calendar@startofweek=\count372
+\gtt@left@slot=\count373
+\gtt@right@slot=\count374
 )
 (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -2127,8 +1635,8 @@ Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 \t@pgfplots@tokb=\toks47
 \t@pgfplots@tokc=\toks48
 \pgfplots@tmpa=\dimen341
-\c@pgfplots@coordindex=\count374
-\c@pgfplots@scanlineindex=\count375
+\c@pgfplots@coordindex=\count375
+\c@pgfplots@scanlineindex=\count376
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
@@ -2141,7 +1649,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gflibraryfpu.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
 gfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count376
+\c@pgfmathroundto@lastzeros=\count377
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_l
 eq.code.tex))
@@ -2152,13 +1660,13 @@ eq.code.tex))
 ext.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
 x
-\c@pgfplotsarray@tmp=\count377
+\c@pgfplotsarray@tmp=\count378
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
 ex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
 ex
-\c@pgfplotstable@counta=\count378
+\c@pgfplotstable@counta=\count379
 \t@pgfplotstable@a=\toks49
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
@@ -2167,7 +1675,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
 .code.tex
-\c@pgfplotslibrarysurf@no=\count379
+\c@pgfplotslibrarysurf@no=\count380
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
 pgfsys-pdftex.def)))
@@ -2183,7 +1691,7 @@ pgfsys-pdftex.def)))
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
-\pgfplots@numplots=\count380
+\pgfplots@numplots=\count381
 \pgfplots@xmin@reg=\dimen342
 \pgfplots@xmax@reg=\dimen343
 \pgfplots@ymin@reg=\dimen344
@@ -2201,19 +1709,8 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 Package: tkz-euclide 2011/06/01 1.16 c for plots 2d 
 
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty
-Package: tkz-base 2011/06/01 1.16 c tkz-base
+Package: tkz-base 2018/09/19 1.16 d tkz-base
 
-(/usr/share/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
-
-
-Package etex Warning: Extended allocation already in use.
-(etex)                etex.sty code will not be used.
-(etex)                To force etex package to load, add
-(etex)                \RequirePackage{etex}
-(etex)                at the start of the document.
-
-)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 shapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
@@ -2227,10 +1724,10 @@ decorations.markings.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
 ons.markings.code.tex)) (/usr/share/texmf-dist/tex/latex/numprint/numprint.sty
 Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count381
-\c@nprt@mantissa@digitsafter=\count382
-\c@nprt@exponent@digitsbefore=\count383
-\c@nprt@exponent@digitsafter=\count384
+\c@nprt@mantissa@digitsbefore=\count382
+\c@nprt@mantissa@digitsafter=\count383
+\c@nprt@exponent@digitsbefore=\count384
+\c@nprt@exponent@digitsafter=\count385
 \nprt@digitwidth=\skip292
 \nprt@sepwidth=\skip293
 \nprt@decimalwidth=\skip294
@@ -2238,12 +1735,12 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 \nprt@digittoks=\toks50
 \nprt@pretoks=\toks51
 \nprt@posttoks=\toks52
-\nprt@thisdigit=\count385
-\nprt@curpos=\count386
-\nprt@rndpos=\count387
-\c@nprt@digitsfirstblock=\count388
-\c@nprt@blockcnt=\count389
-\c@nprt@cntprint=\count390
+\nprt@thisdigit=\count386
+\nprt@curpos=\count387
+\nprt@rndpos=\count388
+\c@nprt@digitsfirstblock=\count389
+\c@nprt@blockcnt=\count390
+\c@nprt@cntprint=\count391
 
 No configuration file `numprint.cfg' found.)
 (/usr/share/texmf-dist/tex/latex/fp/fp.sty
@@ -2252,19 +1749,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count391
+\actioncount=\count392
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count392
-\FP@xia=\count393
-\FP@xib=\count394
-\FP@xfa=\count395
-\FP@xfb=\count396
-\FP@rega=\count397
-\FP@regb=\count398
-\FP@regs=\count399
-\FP@times=\count400
+\FP@xs=\count393
+\FP@xia=\count394
+\FP@xib=\count395
+\FP@xfa=\count396
+\FP@xfb=\count397
+\FP@rega=\count398
+\FP@regb=\count399
+\FP@regs=\count400
+\FP@times=\count401
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -2283,7 +1780,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count401
+\FPseed=\count402
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -2308,7 +1805,7 @@ Package: fp-eval 1995/04/03
 
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-tools-utilities.tex)
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-tools-arith.tex
-File: tkz-tool-arith.tex tkz-tool-arith 1.161 c
+File: tkz-tool-arith.tex tkz-tool-arith 1.161 d
 )
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-tools-base.tex)
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-tools-misc.tex)
@@ -2316,7 +1813,7 @@ File: tkz-tool-arith.tex tkz-tool-arith 1.161 c
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-obj-points.tex)
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-obj-segments.tex)
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-obj-marks.tex
-\tkz@cntmk=\count402
+\tkz@cntmk=\count403
 ))
 (/usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-intersections.tex)
 (/usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-transformations.tex)
@@ -2328,12 +1825,13 @@ File: tkz-tool-arith.tex tkz-tool-arith 1.161 c
 Package: accents 2006/05/12 v1.3 Math Accent Tools
 \cc@skew=\dimen359
 \cc@wd=\dimen360
-\cc@code=\count403
-\cc@group=\count404
-\cc@skewchar=\count405
+\cc@code=\count404
+\cc@group=\count405
+\cc@skewchar=\count406
 )
 (/usr/share/texmf-dist/tex/latex/animate/animate.sty
-Package: animate 2018/08/22 PDF animations from files and inline graphics
+Package: animate 2018/11/29 PDF & SVG animations from files and inline graphics
+
 
 (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -2343,7 +1841,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks53
 \XKV@tempa@toks=\toks54
 )
-\XKV@depth=\count406
+\XKV@depth=\count407
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/oberdiek/ifdraft.sty
@@ -2352,34 +1850,33 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 (/usr/share/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2018/06/07 v0.24 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count407
-\g_pbs_oc_int=\count408
+\g_pbs_page_int=\count408
+\g_pbs_oc_int=\count409
 )
 (/usr/share/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2018/06/07 v0.14 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count409
+\g_ocgbase_nd_int=\count410
 )
 \@anim@box=\box137
 \@anim@measbox=\box138
 \@anim@tmpdima=\dimen361
 \@anim@tmpdimb=\dimen362
-\@anim@num=\count410
-\@anim@curframe=\count411
-\@anim@curframe@zb=\count412
-\@anim@resizeflags=\count413
-\@anim@skipfram=\count414
-\@anim@mulframecnt=\count415
+\@anim@num=\count411
+\@anim@curframe=\count412
+\@anim@curframe@zb=\count413
+\@anim@resizeflags=\count414
+\@anim@skipfram=\count415
+\@anim@mulframecnt=\count416
 \@anim@@tmlnfile=\read3
-\@anim@tmpcnt=\count416
-\c@@anim@ltxcnt=\count417
-\@anim@curlayer=\count418
-\@anim@lineno=\count419
-\@anim@curfield=\count420
-\@anim@@resizeflags=\count421
+\@anim@tmpcnt=\count417
+\c@@anim@ltxcnt=\count418
+\@anim@curlayer=\count419
+\@anim@lineno=\count420
+\@anim@curfield=\count421
+\@anim@@resizeflags=\count422
 )
 (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count422
+Package: lipsum 2018/11/24 v2.1a 150 paragraphs of Lorem Ipsum dummy text
 )
 (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -2542,7 +2039,7 @@ Package: movie15 2012/05/16
 Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
 
 (/usr/share/texmf-dist/tex/latex/pstricks/pstricks.sty
-Package: pstricks 2018/01/06 v0.67 LaTeX wrapper for `PSTricks' (RN,HV)
+Package: pstricks 2018/02/08 v0.68 LaTeX wrapper for `PSTricks' (RN,HV)
 
 (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
@@ -2584,7 +2081,7 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 )
 \psLoopIndex=\count443
 
-`PSTricks' v2.86  <2018/08/23> (tvz,hv)
+`PSTricks' v2.86a  <2018/11/14> (tvz,hv)
 \pst@dima=\dimen383
 \pst@dimb=\dimen384
 \pst@dimc=\dimen385
@@ -2630,10 +2127,10 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \sh@wgridYunit=\dimen406
 \pst@shift=\dimen407
 )
-File: pstricks.tex 2018/08/23 v2.86 `PSTricks' (tvz,hv)
+File: pstricks.tex 2018/11/14 v2.86a `PSTricks' (tvz,hv)
 
 (/usr/share/texmf-dist/tex/generic/pstricks/pst-fp.tex)
-File: pst-fp.tex 2018/08/23 v2.86 `PST-fp' (hv)
+File: pst-fp.tex 2018/11/14 v2.86a `PST-fp' (hv)
 )
 (/usr/share/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
 Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
@@ -2889,7 +2386,7 @@ Package scrhack Info: undefining \float@addtolists on input line 163.
 (/usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-angles.tex)
 (/usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-protractor.tex)
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -2898,36 +2395,30 @@ Package: logreq 2010/08/04 v1.0 xml request logger
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write5
-\integerpart=\count511
-\decimalpart=\count512
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count513
-\c@listtotal=\count514
-\c@listcount=\count515
-\c@liststart=\count516
-\c@liststop=\count517
-\c@citecount=\count518
-\c@citetotal=\count519
-\c@multicitecount=\count520
-\c@multicitetotal=\count521
-\c@instcount=\count522
-\c@maxnames=\count523
-\c@minnames=\count524
-\c@maxitems=\count525
-\c@minitems=\count526
-\c@citecounter=\count527
-\c@savedcitecounter=\count528
-\c@uniquelist=\count529
-\c@uniquename=\count530
-\c@refsection=\count531
-\c@refsegment=\count532
-\c@maxextratitle=\count533
-\c@maxextratitleyear=\count534
+\c@tabx@nest=\count511
+\c@listtotal=\count512
+\c@listcount=\count513
+\c@liststart=\count514
+\c@liststop=\count515
+\c@citecount=\count516
+\c@citetotal=\count517
+\c@multicitecount=\count518
+\c@multicitetotal=\count519
+\c@instcount=\count520
+\c@maxnames=\count521
+\c@minnames=\count522
+\c@maxitems=\count523
+\c@minitems=\count524
+\c@citecounter=\count525
+\c@maxcitecounter=\count526
+\c@savedcitecounter=\count527
+\c@uniquelist=\count528
+\c@uniquename=\count529
+\c@refsection=\count530
+\c@refsegment=\count531
+\c@maxextratitle=\count532
+\c@maxextratitleyear=\count533
+\c@maxextraname=\count534
 \c@maxextradate=\count535
 \c@maxextraalpha=\count536
 \c@abbrvpenalty=\count537
@@ -2944,6 +2435,7 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \blx@parenlevel@text=\count548
 \blx@parenlevel@foot=\count549
 \blx@sectionciteorder@0=\count550
+\blx@entrysetcounter=\count551
 \labelnumberwidth=\skip333
 \labelalphawidth=\skip334
 \biblabelsep=\skip335
@@ -2953,88 +2445,88 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibparsep=\skip339
 \bibhang=\skip340
 \blx@bcfin=\read7
-\blx@bcfout=\write6
-\c@mincomprange=\count551
-\c@maxcomprange=\count552
-\c@mincompwidth=\count553
+\blx@bcfout=\write5
+\c@mincomprange=\count552
+\c@maxcomprange=\count553
+\c@mincompwidth=\count554
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count554
-\c@savedafterword=\count555
-\c@annotator=\count556
-\c@savedannotator=\count557
-\c@author=\count558
-\c@savedauthor=\count559
-\c@bookauthor=\count560
-\c@savedbookauthor=\count561
-\c@commentator=\count562
-\c@savedcommentator=\count563
-\c@editor=\count564
-\c@savededitor=\count565
-\c@editora=\count566
-\c@savededitora=\count567
-\c@editorb=\count568
-\c@savededitorb=\count569
-\c@editorc=\count570
-\c@savededitorc=\count571
-\c@foreword=\count572
-\c@savedforeword=\count573
-\c@holder=\count574
-\c@savedholder=\count575
-\c@introduction=\count576
-\c@savedintroduction=\count577
-\c@namea=\count578
-\c@savednamea=\count579
-\c@nameb=\count580
-\c@savednameb=\count581
-\c@namec=\count582
-\c@savednamec=\count583
-\c@translator=\count584
-\c@savedtranslator=\count585
-\c@shortauthor=\count586
-\c@savedshortauthor=\count587
-\c@shorteditor=\count588
-\c@savedshorteditor=\count589
-\c@labelname=\count590
-\c@savedlabelname=\count591
-\c@institution=\count592
-\c@savedinstitution=\count593
-\c@lista=\count594
-\c@savedlista=\count595
-\c@listb=\count596
-\c@savedlistb=\count597
-\c@listc=\count598
-\c@savedlistc=\count599
-\c@listd=\count600
-\c@savedlistd=\count601
-\c@liste=\count602
-\c@savedliste=\count603
-\c@listf=\count604
-\c@savedlistf=\count605
-\c@location=\count606
-\c@savedlocation=\count607
-\c@organization=\count608
-\c@savedorganization=\count609
-\c@origlocation=\count610
-\c@savedoriglocation=\count611
-\c@origpublisher=\count612
-\c@savedorigpublisher=\count613
-\c@publisher=\count614
-\c@savedpublisher=\count615
-\c@language=\count616
-\c@savedlanguage=\count617
-\c@origlanguage=\count618
-\c@savedoriglanguage=\count619
-\c@pageref=\count620
-\c@savedpageref=\count621
+\c@afterword=\count555
+\c@savedafterword=\count556
+\c@annotator=\count557
+\c@savedannotator=\count558
+\c@author=\count559
+\c@savedauthor=\count560
+\c@bookauthor=\count561
+\c@savedbookauthor=\count562
+\c@commentator=\count563
+\c@savedcommentator=\count564
+\c@editor=\count565
+\c@savededitor=\count566
+\c@editora=\count567
+\c@savededitora=\count568
+\c@editorb=\count569
+\c@savededitorb=\count570
+\c@editorc=\count571
+\c@savededitorc=\count572
+\c@foreword=\count573
+\c@savedforeword=\count574
+\c@holder=\count575
+\c@savedholder=\count576
+\c@introduction=\count577
+\c@savedintroduction=\count578
+\c@namea=\count579
+\c@savednamea=\count580
+\c@nameb=\count581
+\c@savednameb=\count582
+\c@namec=\count583
+\c@savednamec=\count584
+\c@translator=\count585
+\c@savedtranslator=\count586
+\c@shortauthor=\count587
+\c@savedshortauthor=\count588
+\c@shorteditor=\count589
+\c@savedshorteditor=\count590
+\c@labelname=\count591
+\c@savedlabelname=\count592
+\c@institution=\count593
+\c@savedinstitution=\count594
+\c@lista=\count595
+\c@savedlista=\count596
+\c@listb=\count597
+\c@savedlistb=\count598
+\c@listc=\count599
+\c@savedlistc=\count600
+\c@listd=\count601
+\c@savedlistd=\count602
+\c@liste=\count603
+\c@savedliste=\count604
+\c@listf=\count605
+\c@savedlistf=\count606
+\c@location=\count607
+\c@savedlocation=\count608
+\c@organization=\count609
+\c@savedorganization=\count610
+\c@origlocation=\count611
+\c@savedoriglocation=\count612
+\c@origpublisher=\count613
+\c@savedorigpublisher=\count614
+\c@publisher=\count615
+\c@savedpublisher=\count616
+\c@language=\count617
+\c@savedlanguage=\count618
+\c@origlanguage=\count619
+\c@savedoriglanguage=\count620
+\c@pageref=\count621
+\c@savedpageref=\count622
 \shorthandwidth=\skip341
 \shortjournalwidth=\skip342
 \shortserieswidth=\skip343
@@ -3053,39 +2545,39 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count622
-\c@textcitetotal=\count623
-\c@textcitemaxnames=\count624
-\c@biburlnumpenalty=\count625
-\c@biburlucpenalty=\count626
-\c@biburllcpenalty=\count627
-\c@smartand=\count628
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count623
+\c@textcitetotal=\count624
+\c@textcitemaxnames=\count625
+\c@biburlnumpenalty=\count626
+\c@biburlucpenalty=\count627
+\c@biburllcpenalty=\count628
+\c@smartand=\count629
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count629
-\c@bbx:relatedtotal=\count630
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count630
+\c@bbx:relatedtotal=\count631
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -3104,14 +2596,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-\c@theorem=\count631
-\c@constraint=\count632
-\c@property=\count633
-\c@proposition=\count634
-\c@numproblem=\count635
-\c@numexercise=\count636
-\c@numquestion=\count637
-\c@numcau=\count638
+\c@theorem=\count632
+\c@constraint=\count633
+\c@property=\count634
+\c@proposition=\count635
+\c@numproblem=\count636
+\c@numexercise=\count637
+\c@numquestion=\count638
+\c@numcau=\count639
 \LogoHCMUT=\box168
 
 (./figures/LogoHCMUT.tex
@@ -3131,7 +2623,7 @@ LaTeX Font Info:    Font shape `T5/phv/bx/n' in size <50> not available
 )
 \one=\box169
 \two=\box170
-\c@subsubsubsection=\count639
+\c@subsubsubsection=\count640
 )
 (./thesis_info.tex)
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 22.
@@ -3139,7 +2631,7 @@ Package hyperref Info: Option `hypertexnames' set `false' on input line 22.
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 Package hyperref Info: Option `unicode' set `true' on input line 22.
  (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2018/09/30 v6.88a Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -3148,14 +2640,14 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count640
-\@quotereset=\count641
+\@quotelevel=\count641
+\@quotereset=\count642
 (./proposal.aux)
 \openout1 = `proposal.aux'.
 
@@ -3264,16 +2756,16 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count642
+\scratchcounter=\count643
 \scratchdimen=\dimen440
 \scratchbox=\box171
-\nofMPsegments=\count643
-\nofMParguments=\count644
+\nofMPsegments=\count644
+\nofMParguments=\count645
 \everyMPshowfont=\toks70
-\MPscratchCnt=\count645
+\MPscratchCnt=\count646
 \MPscratchDim=\dimen441
-\MPnumerator=\count646
-\makeMPintoPDFobject=\count647
+\MPnumerator=\count647
+\makeMPintoPDFobject=\count648
 \everyMPtoPDFconversion=\toks71
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -3371,7 +2863,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count648
+\c@section@level=\count649
 )
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
@@ -3383,12 +2875,12 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into
 your preamble.
  on input line 22.
 
-\c@lstlisting=\count649
+\c@lstlisting=\count650
 Package scrhack Info: undefining \float@addtolists on input line 22.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout6 = `proposal.bcf'.
+\openout5 = `proposal.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'proposal.bbl' not found.
@@ -3440,22 +2932,57 @@ Non-PDF special ignored!
 (./frontbackmatter/toc.tex (./proposal.toc
 Package cleveref Info: loaded `english' language definitions on input line 2.
 Package cleveref Info: loaded `english' language definitions on input line 3.
-)
-\tf@toc=\write7
-\openout7 = `proposal.toc'.
-
 
 1: section
-[3] (./proposal.lof
+[3])
+\tf@toc=\write6
+\openout6 = `proposal.toc'.
+
+Package cleveref Info: loaded `english' language definitions on input line 4.
+ [4] (./proposal.lof
 Package cleveref Info: loaded `english' language definitions on input line 2.
 Package cleveref Info: loaded `english' language definitions on input line 3.
 )
-\tf@lof=\write8
-\openout8 = `proposal.lof'.
+\tf@lof=\write7
+\openout7 = `proposal.lof'.
 
 
 1: section
-[4]) (./chapters/chapter1.tex
+[5]) [6
+
+] (./chapters/camket.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 \frac{x}{y}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.12 \frac{x}{y}
+                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (./chapters/chapter1.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1 \chapter
+            {Giới thiệu}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Package cleveref Info: loaded `english' language definitions on input line 1.
+[1] [2
+
+]
 Ch\IeC {\uhorn }\IeC {\ohorn }ng 1.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
@@ -3465,65 +2992,76 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 
 1: section
-[1
-
-
-]) (./chapters/chapter2.tex
+[3]) (./chapters/chapter2.tex
 Package cleveref Info: loaded `english' language definitions on input line 1.
- [2]
+ [4]
 Ch\IeC {\uhorn }\IeC {\ohorn }ng 2.
 1: section
-[3
+[5
 
 ]) (./chapters/chapter3.tex
 Package cleveref Info: loaded `english' language definitions on input line 1.
- [4]
+ [6]
 Ch\IeC {\uhorn }\IeC {\ohorn }ng 3.
 
-LaTeX Warning: Citation '23' on page 5 undefined on input line 3.
+LaTeX Warning: Citation '23' on page 7 undefined on input line 4.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 1: section
-[5
+[7
 
-]) (./chapters/chapter4.tex
-Package cleveref Info: loaded `english' language definitions on input line 1.
- [6]
+]
+Package cleveref Info: loaded `english' language definitions on input line 33.
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+) (./chapters/chapter4.tex
+Package cleveref Info: loaded `english' language definitions on input line 5.
+ [9]
+Package cleveref Info: loaded `english' language definitions on input line 5.
+ [10]
 Ch\IeC {\uhorn }\IeC {\ohorn }ng 4.
 ) (./chapters/chapter5.tex
 1: section
-[7
+[11
 
-] [8
+] [12
 
 ]
 Ch\IeC {\uhorn }\IeC {\ohorn }ng 5.
 ) (./chapters/bibliography.tex
 1: section
-[9] [10
+[13] [14
 
 ]) 
 AED: lastpage setting LastPage
 1: section
-[11]
+[15]
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
 (./proposal.aux
 Package cleveref Info: loaded `english' language definitions on input line 32.
 Package cleveref Info: loaded `english' language definitions on input line 33.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 44.
 
 
 LaTeX Warning: There were undefined references.
@@ -3536,29 +3074,34 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'proposal.run.xml'.
 \openout1 = `proposal.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 12 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 75827 strings out of 492642
- 1682983 string characters out of 6135565
- 2515919 words of memory out of 5000000
- 78464 multiletter control sequences out of 15000+600000
- 566072 words of font info for 75 fonts, out of 8000000 for 9000
+ 75913 strings out of 492639
+ 1688937 string characters out of 6135497
+ 2518626 words of memory out of 5000000
+ 78535 multiletter control sequences out of 15000+600000
+ 564127 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,20n,100p,1250b,2305s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/vntex/t5.enc}</usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
-/vntex/urwvn/uhvb8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb
-></usr/share/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb></usr/share/texmf-dis
-t/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/
-vnsl12.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on proposal.pdf (15 pages, 151610 bytes).
+ 67i,20n,100p,1250b,2725s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/vntex/t5.enc}</usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-di
+st/fonts/type1/vntex/urwvn/uhvb8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/
+vnr/vnbx12.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb></usr/s
+hare/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texmf-dist/fonts/ty
+pe1/vntex/vnr/vnsl12.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnti12.pf
+b>
+Output written on proposal.pdf (21 pages, 153500 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
