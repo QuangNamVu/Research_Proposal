@@ -16,18 +16,30 @@
 \contentsline {subsection}{\numberline {2.1.4}Ch\IeC {\'\i }nh s\IeC {\'a}ch c\IeC {\h u}a c\IeC {\'a}c t\IeC {\h \ocircumflex } ch\IeC {\'\uhorn }c}{6}{subsection.12}
 \contentsline {subsection}{\numberline {2.1.5}C\IeC {\'a}c v\IeC {\'\acircumflex }n \IeC {\dj }\IeC {\`\ecircumflex } k\IeC {\~y} thu\IeC {\d \acircumflex }t}{6}{subsection.13}
 \contentsline {section}{\numberline {2.2}Nhu c\IeC {\`\acircumflex }u s\IeC {\h \uhorn } d\IeC {\d u}ng ti\IeC {\`\ecircumflex }n m\IeC {\~a} ho\IeC {\'a} c\IeC {\h u}a m\IeC {\~\ocircumflex }i h\IeC {\d \ecircumflex } sinh th\IeC {\'a}i}{6}{section.14}
-\contentsline {chapter}{\numberline {3}C\IeC {\ohorn } s\IeC {\h \ohorn } l\IeC {\'y} thuy\IeC {\'\ecircumflex }t}{7}{chapter.15}
-\contentsline {section}{\numberline {3.1}C\IeC {\^a}y h\IeC {\`\ocircumflex }i quy v\IeC {\`a} ph\IeC {\^a}n lo\IeC {\d a}i}{7}{section.16}
-\contentsline {subsection}{\numberline {3.1.1}C\IeC {\'\acircumflex }u tr\IeC {\'u}c c\IeC {\^a}y nh\IeC {\d i} ph\IeC {\^a}n c\IeC {\ohorn } b\IeC {\h a}n}{7}{subsection.17}
-\contentsline {subsection}{\numberline {3.1.2}C\IeC {\'a}c lu\IeC {\d \acircumflex }t t\IeC {\'a}ch th\IeC {\uhorn }\IeC {\`\ohorn }ng d\IeC {\`u}ng}{7}{subsection.18}
-\contentsline {subsubsection}{\numberline {3.1.2.1}\IeC {\DJ }\IeC {\'\ocircumflex }i v\IeC {\'\ohorn }i Regression Tree}{7}{subsubsection.19}
-\contentsline {subsubsection}{\numberline {3.1.2.2}\IeC {\DJ }\IeC {\'\ocircumflex }i v\IeC {\'\ohorn }i Classification Tree}{8}{subsubsection.20}
-\contentsline {subsection}{\numberline {3.1.3}Ti\IeC {\^e}u ch\IeC {\'\i } t\IeC {\'a}ch}{8}{subsection.21}
-\contentsline {subsection}{\numberline {3.1.4}T\IeC {\h i}a c\IeC {\^a}y}{9}{subsection.22}
-\contentsline {subsubsection}{\numberline {3.1.4.1}T\IeC {\d \acircumflex }p hu\IeC {\'\acircumflex }n luy\IeC {\d \ecircumflex }n - ki\IeC {\h \ecircumflex }m tra \IeC {\dj }\IeC {\d \ocircumflex }c l\IeC {\d \acircumflex }p}{9}{subsubsection.23}
-\contentsline {subsubsection}{\numberline {3.1.4.2}Cross-Validation}{9}{subsubsection.24}
-\contentsline {section}{\numberline {3.2}R\IeC {\`\uhorn }ng ng\IeC {\~\acircumflex }u nhi\IeC {\^e}n}{10}{section.25}
-\contentsline {chapter}{\numberline {4}\IeC {\DJ }\IeC {\d a}i s\IeC {\'\ocircumflex } tuy\IeC {\'\ecircumflex }n t\IeC {\'\i }nh}{11}{chapter.26}
-\contentsline {section}{\numberline {4.1}Gradient}{11}{section.27}
-\contentsline {chapter}{\numberline {5}Chu\IeC {\h \acircumflex }n b\IeC {\d i} d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{13}{chapter.28}
-\contentsline {section}{\numberline {5.1}M\IeC {\^o} t\IeC {\h a} d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{13}{section.29}
+\contentsline {chapter}{\numberline {3}D\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{7}{chapter.15}
+\contentsline {section}{\numberline {3.1}Chu\IeC {\h \acircumflex }n b\IeC {\d i} d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{7}{section.16}
+\contentsline {section}{\numberline {3.2}M\IeC {\^o} t\IeC {\h a} d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{7}{section.17}
+\contentsline {chapter}{\numberline {4}C\IeC {\^a}y h\IeC {\`\ocircumflex }i quy v\IeC {\`a} ph\IeC {\^a}n lo\IeC {\d a}i}{9}{chapter.18}
+\contentsline {subsection}{\numberline {4.0.1}C\IeC {\'\acircumflex }u tr\IeC {\'u}c c\IeC {\^a}y nh\IeC {\d i} ph\IeC {\^a}n c\IeC {\ohorn } b\IeC {\h a}n}{9}{subsection.19}
+\contentsline {subsection}{\numberline {4.0.2}C\IeC {\'a}c lu\IeC {\d \acircumflex }t t\IeC {\'a}ch th\IeC {\uhorn }\IeC {\`\ohorn }ng d\IeC {\`u}ng}{9}{subsection.20}
+\contentsline {subsubsection}{\numberline {4.0.2.1}\IeC {\DJ }\IeC {\'\ocircumflex }i v\IeC {\'\ohorn }i Regression Tree}{9}{subsubsection.21}
+\contentsline {subsubsection}{\numberline {4.0.2.2}\IeC {\DJ }\IeC {\'\ocircumflex }i v\IeC {\'\ohorn }i Classification Tree}{10}{subsubsection.22}
+\contentsline {subsection}{\numberline {4.0.3}Ti\IeC {\^e}u ch\IeC {\'\i } t\IeC {\'a}ch}{10}{subsection.23}
+\contentsline {subsection}{\numberline {4.0.4}T\IeC {\h i}a c\IeC {\^a}y}{11}{subsection.24}
+\contentsline {subsubsection}{\numberline {4.0.4.1}T\IeC {\d \acircumflex }p hu\IeC {\'\acircumflex }n luy\IeC {\d \ecircumflex }n - ki\IeC {\h \ecircumflex }m tra \IeC {\dj }\IeC {\d \ocircumflex }c l\IeC {\d \acircumflex }p}{11}{subsubsection.25}
+\contentsline {subsubsection}{\numberline {4.0.4.2}Cross-Validation}{11}{subsubsection.26}
+\contentsline {section}{\numberline {4.1}R\IeC {\`\uhorn }ng ng\IeC {\~\acircumflex }u nhi\IeC {\^e}n}{11}{section.27}
+\contentsline {chapter}{\numberline {5}C\IeC {\'a}c kh\IeC {\'a}i ni\IeC {\d \ecircumflex }m c\IeC {\ohorn } b\IeC {\h a}n}{13}{chapter.28}
+\contentsline {section}{\numberline {5.1}C\IeC {\'a}c kh\IeC {\'a}i ni\IeC {\d \ecircumflex }m v\IeC {\`\ecircumflex } \IeC {\DJ }\IeC {\d a}i s\IeC {\'\ocircumflex } tuy\IeC {\'\ecircumflex }n t\IeC {\'\i }nh}{13}{section.29}
+\contentsline {subsection}{\numberline {5.1.1}C\IeC {\'a}c k\IeC {\'\i } hi\IeC {\d \ecircumflex }u c\IeC {\ohorn } b\IeC {\h a}n th\IeC {\uhorn }\IeC {\`\ohorn }ng d\IeC {\`u}ng}{13}{subsection.30}
+\contentsline {subsection}{\numberline {5.1.2}Ph\IeC {\'e}p nh\IeC {\^a}n ma tr\IeC {\d \acircumflex }n}{13}{subsection.31}
+\contentsline {subsection}{\numberline {5.1.3}Ph\IeC {\'e}p nh\IeC {\^a}n vector-vector}{13}{subsection.32}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Inner Product}{13}{subsubsection.33}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Outer Product}{14}{subsubsection.34}
+\contentsline {subsection}{\numberline {5.1.4}Ph\IeC {\'e}p nh\IeC {\^a}n ma tr\IeC {\d \acircumflex }n-vector}{14}{subsection.35}
+\contentsline {subsection}{\numberline {5.1.5}Ma tr\IeC {\d \acircumflex }n \IeC {\dj }\IeC {\ohorn }n v\IeC {\d i} v\IeC {\`a} ma tr\IeC {\d \acircumflex }n \IeC {\dj }\IeC {\uhorn }\IeC {\`\ohorn }ng ch\IeC {\'e}o}{14}{subsection.36}
+\contentsline {subsection}{\numberline {5.1.6}Ma tr\IeC {\d \acircumflex }n d\IeC {\d a}ng to\IeC {\`a}n ph\IeC {\uhorn }\IeC {\ohorn }ng v\IeC {\`a} ma tr\IeC {\d \acircumflex }n x\IeC {\'a}c \IeC {\dj }\IeC {\d i}nh d\IeC {\uhorn }\IeC {\ohorn }ng}{15}{subsection.37}
+\contentsline {section}{\numberline {5.2}C\IeC {\'a}c kh\IeC {\'a}i ni\IeC {\d \ecircumflex }m v\IeC {\`\ecircumflex } X\IeC {\'a}c su\IeC {\'\acircumflex }t}{15}{section.38}
+\contentsline {subsection}{\numberline {5.2.1}Likelihood}{15}{subsection.39}
+\contentsline {chapter}{\numberline {6}M\IeC {\^o} h\IeC {\`\i }nh m\IeC {\d a}ng Markov \IeC {\h \acircumflex }n (HMM)}{17}{chapter.40}
+\contentsline {section}{\numberline {6.1}T\IeC {\'\i }nh sinh}{17}{section.41}

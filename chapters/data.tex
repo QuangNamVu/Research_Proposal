@@ -1,0 +1,23 @@
+\chapter{Dữ liệu}
+
+\section{Chuẩn bị dữ liệu}
+Có nhiều nguồn cung cấp dữ liệu cho bài toán dự đoán giá đồng tiền mã hóa, trong phạm vi nghiên cứu có sử dụng các lịch sử giao dịch các đổng với nhau (trading pair) được lấy từ  API có sẵn từ 8 sàn giao dịch với cấu trúc bảng:\\ % \csvautotabular[respect 
+\resizebox{\textwidth}{!}{%
+	\csvautotabular[respect all]{figures/example_data.csv}
+}\\\\
+
+\section{Mô tả dữ liệu}
+
+Phiên giao dịch dòng 1 SRN/BTC được ghi lại thành một dòng với thông tin như sau:\\
+ 
+\begin{itemize}
+	\item symbol: Tên giao dịch giữa hai đồng với nhau cụ thể là đồng SRN so với đồng BTC
+	\item Market: Tên sàn giao dịch cụ thể là sàn huopipro
+	\item timeIndicator: Thời điểm mở phiên giao dịch 8 giờ 13/12/2018 UTC
+	\item openPrice: Tỷ giá thời điểm mở phiên
+	\item openPrice: Tỷ giá thời điểm đóng phiên
+	\item highPrice: Tỷ giá cao nhất phiên giao dịch
+	\item lowPrice: Tỷ giá thấp nhất phiên giao dịch
+	\item volume: Khối lượng giao dịch (Ví dụ symbol là SRN/BTC volume có nghĩa là số đồng SRN)
+	\item minTimestamp, maxTimestamp: do mỗi giao dịch cần một thời gian nhất định nên cần có thời gian bắt đầu và kết thúc giao dịch tính theo POSIX time.
+\end{itemize}
