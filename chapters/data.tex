@@ -1,14 +1,39 @@
 \chapter{Dữ liệu}
 
 \section{Chuẩn bị dữ liệu}
-Có nhiều nguồn cung cấp dữ liệu cho bài toán dự đoán giá đồng tiền mã hóa, trong phạm vi nghiên cứu có sử dụng các lịch sử giao dịch các đổng với nhau (trading pair) được lấy từ  API có sẵn từ 8 sàn giao dịch với cấu trúc bảng:\\ % \csvautotabular[respect 
-\resizebox{\textwidth}{!}{%
-	\csvautotabular[respect all]{figures/example_data.csv}
-}\\\\
+Có nhiều nguồn cung cấp dữ liệu cho bài toán dự đoán giá đồng tiền mã hóa, nghiên cứu này có sử dụng các lịch sử giao dịch các đổng với nhau (trading pair) được lấy từ  API có sẵn từ 8 sàn giao dịch với cấu trúc bảng như sau:\\ % \csvautotabular[respect 
+%\resizebox{\textwidth}{!}{%
+%	\csvautotabular[respect all]{figures/short_len_data.csv}
+%}\\\\
+\makeatletter
+\csvset{
+	autotabularcenter/.style={
+		file=#1,
+		after head=\csv@pretable\begin{tabular}{|*{\csv@columncount}{c|}}\csv@tablehead,
+			table head=\hline\csvlinetotablerow\\\hline,
+			late after line=\\,
+			table foot=\\\hline,
+			late after last line=\csv@tablefoot\end{tabular}\csv@posttable,
+		command=\csvlinetotablerow},
+	autobooktabularcenter/.style={
+		file=#1,
+		after head=\csv@pretable\begin{tabular}{*{\csv@columncount}{c}}\csv@tablehead,
+			table head=\toprule\csvlinetotablerow\\\midrule,
+			late after line=\\,
+			table foot=\\\bottomrule,
+			late after last line=\csv@tablefoot\end{tabular}\csv@posttable,
+		command=\csvlinetotablerow},
+}
+\makeatother
+\newcommand{\csvautotabularcenter}[2][]{\csvloop{autotabularcenter={#2},#1}}
+\newcommand{\csvautobooktabularcenter}[2][]{\csvloop{autobooktabularcenter={#2},#1}}
 
+\csvautotabular[respect all]{figures/short_len_data_1.csv}\\\\
+
+\csvautotabular[respect all]{figures/short_len_data_2.csv}\\\\
 \section{Mô tả dữ liệu}
 
-Phiên giao dịch dòng 1 SRN/BTC được ghi lại thành một dòng với thông tin như sau:\\
+Với phiên giao dịch dòng 1 SRN/BTC được ghi lại thành một dòng với thông tin như sau:\\
  
 \begin{itemize}
 	\item symbol: Tên giao dịch giữa hai đồng với nhau cụ thể là đồng SRN so với đồng BTC

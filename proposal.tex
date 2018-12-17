@@ -1,7 +1,6 @@
 \documentclass[
-12pt, % The default document font size, options: 10pt, 11pt, 12pt
-%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
-english, % ngerman for German
+12pt, % 10pt, 11pt, 12pt
+english,
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
 %nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
@@ -13,8 +12,8 @@ headsepline, % Uncomment to get a line under the header
 %chapterinoneline, % Uncomment to place the chapter title next to the number on one line
 %consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
 ]{MastersDoctoralThesis} % The class file specifying the document structure
-\input{preamble}
-\input{thesis_info}
+\input{preamble} % list package
+\input{thesis_info} % khoa supervisor
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
@@ -28,13 +27,12 @@ headsepline, % Uncomment to get a line under the header
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter
 %\input{chapters/LoiCamOn}
-\input{chapters/camket}
+%\input{chapters/camket}
 \input{chapters/intro}
 \input{chapters/overview}
 \input{chapters/data}
-\input{chapters/CART}
+\input{chapters/models}
 \input{chapters/concept}
-\input{chapters/hmm}
 
 \input{chapters/bibliography}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,89 @@
+% \documentclass[tikz]{standalone}
+% \usepackage{pgfgantt}
+\title{Biểu đồ kế hoạch}
+
+\begin{ganttchart}[
+    canvas/.append style={fill=none, draw=black!15, line width=.75pt},
+    hgrid style/.style={draw=black!15, line width=.75pt},
+    vgrid={*1{draw=black!15, line width=.5pt}},
+    x unit=.6cm,
+    %y unit title=0.7cm,
+    y unit chart=0.65cm,
+    today=15,
+    today rule/.style={
+      draw=black!64,
+      dash pattern=on 3.5pt off 4.5pt,
+      line width=1.5pt
+    },
+    today label font=\small\bfseries,
+    title/.style={draw=none, fill=none},
+    title label font=\bfseries\footnotesize,
+    title label node/.append style={below=7pt},
+    include title in canvas=false,
+    bar label font=\mdseries\small\color{black!70}, %text color%
+    bar label node/.append style={left=.1cm},
+    bar/.append style={draw=none, fill=black!30},
+    % bar incomplete/.append style={fill=barblue},
+    bar height=.4,
+    % bar progress label font=\mdseries\footnotesize\color{black!65},
+    group/.append style={draw=none, fill=black!60},
+    % group incomplete/.append style={fill=groupblue},
+    group left shift=0,
+    group right shift=0,
+    group height=.3,
+    group peaks tip position=0,
+    group label node/.append style={left=.1cm},
+  ]{1}{15}
+  \gantttitle[
+    title label node/.append style={below left=7pt and -3pt}
+  ]{Tuần:\quad1}{1}
+  \gantttitlelist{2,...,15}{1} \\
+  \ganttgroup[progress label text={}]{Học kì 1}{1}{15} \\
+  \ganttbar[
+    progress label text={}
+  ]{Hiện thực việc thu thập dữ liệu một cách tự động}{1}{15} \\
+  \ganttbar[
+  progress label text={}
+  ]{Nghiên cứu các tính chất về chuỗi thời gian}{1}{5} \\
+  
+  \ganttbar[
+    progress label text={}
+  ]{Nghiên cứu các khái niệm về Rừng ngẫu nhiên}{3}{7} \\
+  \ganttbar[
+    progress label text={}
+  ]{Nghiên cứu các thành phần trong mạng nơron tích chập}{6}{12} \\
+  \ganttbar[
+    progress label text={}
+  ]{Đánh giá kết quả sử dụng mạng nơron tích chập}{8}{14} \\
+	\ganttbar[
+	progress label text={}
+	]{Nghiên cứu mô hình Markov ẩn}{13}{15} \\
+  \ganttbar[
+    progress label text={}
+  ]{Báo cáo đề cương}{13}{14} \\
+  \ganttbar[
+    progress label text={}
+  ]{Thuyết trình đề cương}{15}{15} \\[grid]
+
+  %-----------------------------------------------------
+
+  \ganttgroup[progress label text={}]{Học kì 2}{1}{15} \\
+  \ganttbar[
+    progress label text={}
+  ]{Nghiên cứu sử dụng mô hình Markov ẩn}{1}{5} \\
+  \ganttbar[
+    progress label text={}
+  ]{Nghiên cứu các thành phần trong mạng nơron hồi quy}{6}{8} \\
+  \ganttbar[
+  progress label text={}
+  ]{Nghiên cứu các thành phần trong mạng bộ nhớ dài-ngắn}{8}{9} \\
+  \ganttbar[
+    progress label text={}
+  ]{Đánh giá các mô hình}{6}{14} \\
+  \ganttbar[
+    progress label text={}
+  ]{Báo cáo luận văn}{14}{14} \\
+  \ganttbar[
+    progress label text={}
+  ]{Thuyết trình đề cương}{15}{15}
+\end{ganttchart}
