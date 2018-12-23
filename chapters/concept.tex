@@ -1,99 +1,14 @@
-% week 9
-% reference https://explained.ai/matrix-calculus/index.html
-% reference https://explained.ai/matrix-calculus/index.html
+
 \chapter{Các khái niệm cơ bản}
-\section{Các khái niệm về Đại số tuyến tính}
-\subsection{Các kí hiệu cơ bản thường dùng}
-Bài báo cáo này có sử dụng những kí hiệu:
 
-$A \in \mathbb{R}^{m\times n}$	: ma trận A có m hàng và n cột.
+%\input{chapters/concept_linear_algebra}
 
-$x \in \mathbb{R}^n$: vectơ gồm n phần tử hay vectơ n chiều.
-
-\subsection{Phép nhân ma trận}
-Phép nhân ma trận $A \in \mathbb{R}^{m\times n}$ và $A \in \mathbb{R} ^{n\times p}$ là một ma trận 
-$C=AB \in \mathbb{R} ^{m\times p}$ \\sao cho \\
-$C_{ij} = \sum_{k=1}^{n}A_{ik}B_{kj}$
-
-\subsection{Phép nhân vectơ-vectơ}
-\subsubsection{Inner Product}
-Cho hai vectơ $x,y\in \mathbb{R}^n$ đại lượng $x^\top y$ được gọi là inner product hay dot product của hai vectơ có giá trị là một số thực sao cho:\\
-
-$x^\top y \in \mathbb{R} ^{n} =
-\left[\begin{matrix}x_1 & x_2 & \dots & x_n\end{matrix}\right]
-\left[\begin{matrix}
-y_1 \\
-y_2 \\
-\vdots\\
-y_n
-\end{matrix}\right]
-=  \sum_{i=1}^{n}x_{i}y_{i}$\\
-Nhận xét inner products là trường hợp đặc biệt của phép nhân ma trận dễ nhận thấy $x^\top y = y^\top x$.
-
-\subsubsection{Outer Product}
-Cho hai vectơ $x \in \mathbb{R}^n, y \in \mathbb{R}^{m}$ đại lượng $xy^\top \in \mathbb{R} ^{n \times m}$ được gọi là outer product của hai vectơ sao cho:\\
-$xy^\top \in \mathbb{R} ^{n} =
-\left[\begin{matrix}
-x_1 \\
-x_2 \\
-\vdots\\
-x_n
-\end{matrix}\right] \left[\begin{matrix}y_1 & y_2 & \dots & y_m\end{matrix}\right]
-= 
-\left[\begin{matrix}
-x_1y_1 & x_1y_2 & \dots & x_1y_n\\
-x_2y_1 & x_2y_2 & \dots & x_2y_n\\
-\vdots & \vdots & \ddots & \vdots \\
-x_ny_1 & x_ny_2 & \dots & x_ny_m \\ 
-\end{matrix}\right]
-$
-\subsection{Phép nhân ma trận-vectơ}
-Cho ma trận $A \in \mathbb{R} ^{n \times m}$ và vectơ $y \in \mathbb{R}^{m}$ phép nhân $y = Ax \in \mathbb{R}^{n}$.\\
-Ta có thể biểu diễn phép nhân khi nhìn A thành dạng hàng như sau:\\
-$
-y = Ax = 
-\left[\begin{matrix}
-A_1 \\
-A_2 \\ 
-\vdots \\
-A_n
-\end{matrix}\right]x =
-\left[\begin{matrix}
-A_1x_1\\
-A_2x_2 \\ 
-\vdots \\
-A_nx_n
-\end{matrix}\right]
-$
-
-\subsection{Ma trận đơn vị và ma trận đường chéo}
-Ma trận đơn vị (Identity matrix) $I \in \mathbb{R}^{n \times n}$ các phần tử trong I thỏa:\\
-
-
-\begin{numcases}{I_{ij}=}
-	1 & $i = j$ 
-	\\
-	0 & $i \neq j$
-\end{numcases}
-Ma trận đường chéo
-\subsection{Ma trận dạng toàn phương và ma trận xác định dương}
-% page 17 cs229
-% Quadratic Forms and Positive Semidefinite Matrices
-Cho một ma trận vuông $A \in \mathbb{R}^{n \times n}$ và vectơ $x \in \mathbb{R}^n$, giá trị $x^\top Ax$ được gọi là có dạng toàn phương:\\
-
-$x^\top Ax =\sum_{i=1}^{n}x^\top_i (Ax)_i
-=\sum_{i=1}^{n}x^\top_i (\sum_{j=1}^{n}A_{ij}x_i)
-=\sum_{i=1}^{n}\sum_{j=1}^{n}A_{ij}x_ix_j
-$
-
-% TODO continue
 
 \section{Các khái niệm cơ bản liên quan học máy có liên quan tới đề tài}
 \subsection{Mô hình sinh mẫu}
-Mô hình sinh mẫu (generative model) là tử mô hình với dữ liệu cho trước, ta có thể sinh dữ liệu mới có cùng phân phối so với dữ liệu sẵn có và từ mô hình ta có thể.
-\subsection{}
+Mô hình sinh mẫu (generative model) là tử mô hình với dữ liệu cho trước, ta có thể sinh dữ liệu mới có cùng phân phối so với dữ liệu sẵn có.
 
-\section{Các khái niệm về Xác suất}
+%\section{Các khái niệm về Xác suất}
 
-\subsection{Likelihood}
+%\subsection{Likelihood}
 
