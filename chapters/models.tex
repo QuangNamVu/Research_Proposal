@@ -54,14 +54,19 @@ Khi tập mẫu đủ lớn, ta chia tập thành 2 phần riêng, độc lập 
 %(TODO: chưa làm cross-validation không có kết quả
 Nếu dữ liệu chưa đủ cho việc tách riêng biệt thành hai tập với tỉ lệ như trên, nói cách khác chúng ta cần giữ lại tập train càng nhiều càng tốt nhưng vẫn cần sự độc lập giữa hai tập này.
 \section{Rừng ngẫu nhiên}
-Tuy trực quan, các cây quyết định đơn lẻ thường có phương sai cao khi tập kiểm tra khác với tập huấn luyện dẫn đến kết quả dự đoán kém trên dữ liệu thực tế. Mục đích của rừng ngẫu nhiên nhằm giảm overfitting. Các bước thực hiện của rừng ngẫu nhiên gồm:
+Tuy trực quan, các cây quyết định đơn lẻ thường có phương sai cao khi tập kiểm tra khác với tập huấn luyện dẫn đến kết quả dự đoán kém trên dữ liệu thực tế. Mục đích của rừng ngẫu nhiên nhằm giảm overfitting. Các bước thực hiện của rừng ngẫu nhiên gồm\cite{1}:
 \begin{itemize}
-	
+\item Bootstrap: Chọn lựa các dữ liệu ngẫu nhiên .
+\item Chọn lựa các thuộc tính: chọn các thuộc tính ngẫu nhiên đối với mỗi dữ liệu vừa tạo.
+\item Xây dựng cây.
+\item Tính toán tỉ lệ lỗi của mỗi cây dựa trên dữ liệu kiểm thử không nằm trong dữ liệu vừa tạo.
+\item Tổng hợp các cây.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Lớp tích chập trong mô hình mạng nơ-ron tích chập (Convolution neural network)} 
-Mô hình mạng nơ-ron truyền thống với nhiều lớp truyền ngược có thể học được dữ liệu phức tạp, nhiều chiều. Tuy nhiên khi sử dụng nhiều lớp kết nối đầy đủ(fully connected) với đầu vào dạng véc-tơ với kích thước lớn gây ra hiện tượng overfitting do quá nhiều tham số (high-variance) làm bùng nổ mô hình liên quan trực tiếp tới vấn đề hiệu năng, bộ nhớ, khả năng tính toán của phần cứng. Để tránh hiện tượng này, ta có thể xây dựng bộ trích xuất đặc trưng trước khi đưa vào các lớp kết nối đầy đủ để giảm số lượng trọng số này. Một cách tổng quát hơn ta có thể xây dựng những lớp gồm các bộ lọc để giảm được số chiều của đầu vào trước đó, trong quá trình huấn luyện mô hình, lớp này có khả năng tự điều chỉnh các trọng số của các bộ lọc tại bước truyền ngược. Đây chính là lý do chính của lớp tích chập, kiến trúc của phép tích chập gồm các tham số \site():
+Mô hình mạng nơ-ron truyền thống với nhiều lớp truyền ngược có thể học được dữ liệu phức tạp, nhiều chiều. Tuy nhiên khi sử dụng nhiều lớp kết nối đầy đủ(fully connected) với đầu vào dạng véc-tơ với kích thước lớn gây ra hiện tượng overfitting do quá nhiều tham số (high-variance) làm bùng nổ mô hình liên quan trực tiếp tới vấn đề hiệu năng, bộ nhớ, khả năng tính toán của phần cứng. Để tránh hiện tượng này, ta có thể xây dựng bộ trích xuất đặc trưng trước khi đưa vào các lớp kết nối đầy đủ để giảm số lượng trọng số này. Một cách tổng quát hơn ta có thể xây dựng những lớp gồm các bộ lọc để giảm được số chiều của đầu vào trước đó, trong quá trình huấn luyện mô hình, lớp này có khả năng tự điều chỉnh các trọng số của các bộ lọc tại bước truyền ngược. Đây chính là lý do chính của lớp tích chập, kiến trúc của phép tích chập gồm các tham số:
+% \site{3}
 \begin{itemize}
 \item Kích thước của bộ lọc (cửa sổ)
 \item Hệ số lề (padding)

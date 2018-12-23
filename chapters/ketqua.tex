@@ -1,0 +1,32 @@
+\chapter{Thí nghiệm với mô hình}
+
+\section{Phân tích hiện thực mô hình tham khảo}
+\subsection{Xử lý dữ liệu bài toán}
+Yêu cầu của bài toán là dự đoán giá của các đồng với nhau. Bài toán có thể chia ra làm 2 loại như sau:
+\begin{itemize}
+	\item Phân loại giá tăng hoặc giảm trong một khoảng thời gian kế tiếp.
+	\item Dự đoán giá của các đồng xác định trong phạm vi liên tục tại thời gian kế tiếp.
+\end{itemize}
+
+\subsection{Mô hình rừng ngẫu nhiên}
+ Đề tài có sử dụng thư viện hỗ trợ scikit-learn để xây dựng rừng ngẫu nhiên.
+ Rừng ngẫu nhiên có đầu vào là dữ liệu ở dạng bảng với mỗi thuộc tính(mỗi cột) có thể ở dạng loại (category) hoặc liên tục (numerical). Khi áp dụng dữ liệu thô, với mỗi quan sát là một dòng thuộc bảng và nhãn là giá lên hoặc xuống, đối với giá trong 1 phút sau ta có thể phân ra 2 loại tăng hoặc giảm. Tuy nhiên với mỗi quan sát trước có thể phụ thuộc vào nhiều quan sát trước đó, việc sử dụng các cây CART chỉ với một giao dịch là không phù hợp,ta có thể thêm các thuộc tính như giá trung bình trong 1 giờ trước đó, trong một ngày trước đó, \dots
+ 
+ \subsection{Mô hình mạng nơ-ron tích chập}
+ Đề tài có sử dụng thư viện hỗ trợ keras trên nền tensorflow một thư viện mã nguồn mở có hỗ trợ khả năng tính toán của các bộ xử lý đồ họa. Trong bước tiền xử lý dữ liệu để đưa vào trong mạng có sử dụng mỗi cửa sổ trượt làm một ảnh một chiều với số kênh là số thuộc tính của mỗi giao dịch, độ dài của mỗi ảnh được định nghĩa trước là số giao dịch liên tục. Nhãn của những ảnh này là xu hướng tăng hoặc giảm của giao dịch cuối cùng với mỗi ảnh.\\
+  Khi dữ liệu được đưa vào mạng nơ-ron cần được chuẩn hóa để tránh hiện tượng các nơ-ron không cập nhật được khi hàm kích hoạt có họ RELU hoặc khó kích hoạt khi các hàm kích hoạt phi tuyến khác như hàm sigmoid hoặc hàm tanh. Các bước chuẩn hóa dữ liệu được mô tả như sau:
+ \begin{itemize}
+ 	\item Các thuộc tính về thời gian đổi về dạng số nguyên theo chuẩn UNIX.Các số này khá lớn nên được chuẩn hóa dạng logarit, sau đó chuẩn hóa theo standard score.
+ 	%TODO Standard score viết công thức
+ 	\item Các thuộc tính còn lại như lượng giao dịch, giá mở, giá đóng theo dạng standard score
+ \end{itemize}
+Khi áp dụng standard score, với mỗi thuộc tính có giá trị trung bình về 0 và phương sai về 1. Điều này ảnh hưởng tốt cho mạng nơ-ron tích chập khi hội tụ nhanh và khó bị `kẹt lại'  ở những điểm thung lũng hơn.
+
+% \dots
+ % TODO dụng dữ liệu thô như hình 1.1
+ 
+ \section{Kết quả}
+ Các số liệu kết quả trong phần này được lấy từ các lần thực nghiệm huấn luyện trên google cloud, một nền tảng dịch vụ có hỗ trợ phần cứng và thư viện miễn phí. So sánh các mô hình rừng ngẫu nhiên và mạng nơ-ron tích chập với dữ liệu đầu vào từ  2012-01-01 đến 2018-11-11 với kết quả của rừng ngẫu nhiên là 53\% và mạng nơ-ron tích chập là 71\% trong bài toán phân loại.
+ % TODO: get information about google clould resource
+ 
+ 
